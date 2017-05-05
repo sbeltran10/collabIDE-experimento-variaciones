@@ -83,11 +83,13 @@ public class MaquinaEstructura {
 	
 	// Clase que representa a un nodo de un grafo
 	public class NodoGrafo extends Nodo{
-
+		
+		private NodoGrafo fuente;
 		private List<NodoGrafo> listaAdyacencia;
 		
-		public NodoGrafo(int id) {
+		public NodoGrafo(int id, NodoGrafo nodoFuente) {
 			super(id);
+			fuente = nodoFuente;
 			listaAdyacencia = new ArrayList<>();
 		}
 		
@@ -124,7 +126,5 @@ public class MaquinaEstructura {
 	public static void main(String args[]){
 		
 	}
-	
-	
 	
 }
