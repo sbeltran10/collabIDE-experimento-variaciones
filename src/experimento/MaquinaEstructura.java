@@ -120,6 +120,10 @@ public class MaquinaEstructura {
 		
 	}
 	
+	// Puede probar el funcionamiento de las operaciones en el main
+	public static void main(String args[]){
+		
+	}
 	
 	
 	
